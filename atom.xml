@@ -40,28 +40,6 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://blog.onepie.cn/202006/hello-world.html"/>
-    <id>http://blog.onepie.cn/202006/hello-world.html</id>
-    <published>2020-06-23T11:09:53.138Z</published>
-    <updated>2020-06-23T11:09:53.138Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>PHP 根据url获取顶级域名</title>
     <link href="http://blog.onepie.cn/202006/php-get-top-host.html"/>
     <id>http://blog.onepie.cn/202006/php-get-top-host.html</id>
@@ -513,6 +491,33 @@
 &lt;p&gt;很多程序员最喜欢的编辑器都是SublimeText，在MacOS下，使用vi/vim命令编辑文件是比较苦逼的事情，下面就根据个人实践，向大家介绍怎么使用SublimeText编辑文件。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;注意
+      
+    
+    </summary>
+    
+    
+    
+      <category term="macos" scheme="http://blog.onepie.cn/tags/macos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MAC 上安全与隐私开启任何来源设置</title>
+    <link href="http://blog.onepie.cn/201804/macos-set-secret.html"/>
+    <id>http://blog.onepie.cn/201804/macos-set-secret.html</id>
+    <published>2018-04-03T07:30:12.000Z</published>
+    <updated>2020-06-22T01:10:26.070Z</updated>
+    
+    <content type="html"><![CDATA[<p>终端下执行：<br><code>sudo spctl --master-disable</code><br>然后输入密码就可以了；</p><p>返回原来的设置：<br>再次执行上述命令就可以了。</p><hr/>Stay Hungry;Stay Foolish;]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;终端下执行：&lt;br&gt;&lt;code&gt;sudo spctl --master-disable&lt;/code&gt;&lt;br&gt;然后输入密码就可以了；&lt;/p&gt;
+&lt;p&gt;返回原来的设置：&lt;br&gt;再次执行上述命令就可以了。&lt;/p&gt;
+&lt;hr/&gt;
+Stay Hungry;Stay Foolish;
       
     
     </summary>
