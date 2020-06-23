@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.onepie.cn/"/>
-  <updated>2020-06-23T13:09:08.121Z</updated>
+  <updated>2020-06-23T13:11:50.920Z</updated>
   <id>http://blog.onepie.cn/</id>
   
   <author>
@@ -21,13 +21,13 @@
     <link href="http://blog.onepie.cn/202006/unstall-gitlab.html"/>
     <id>http://blog.onepie.cn/202006/unstall-gitlab.html</id>
     <published>2020-06-23T11:28:15.000Z</published>
-    <updated>2020-06-23T13:09:08.121Z</updated>
+    <updated>2020-06-23T13:11:50.920Z</updated>
     
     <content type="html"><![CDATA[<p>按捺不住好奇的心理，想自己在服务器上搭建个gitlab，装完之后就去忙工作去了，次日一看博客，打开页面卡的跟g一样（服务器配置1核1G内存），进去服务器一看，全是gitlab的进程，一气之下，便把gitlab给卸载了。这里做下卸载gitlab的记录。</p><ul><li><p>停止gitlab进程<br>命令：<code>gitlab-ctl stop</code></p></li><li><p>卸载gitlab<br>命令：<code>rpm -e gitlab-ce</code></p></li><li><p>查看并杀掉gitlab进程<br>查看进程：<code>ps aux | grep gitlab</code></p></li><li><p>kill掉进程: kill 掉那个带有很多点的master进程<br><img src="/202006/unstall-gitlab/unstall_gitlab.jpg" alt><br><code>kill -9 6172</code></p></li><li><p>删除所有包含gitlab的文件<br><code>find / -name gitlab | xargs rm -rf</code> </p></li></ul>]]></content>
     
     <summary type="html">
     
-      测试
+      按捺不住好奇的心理，想自己在服务器上搭建个gitlab，装完之后就去忙工作去了，次日一看博客，打开页面卡的跟g一样（服务器配置1核1G内存），进去服务器一看，全是gitlab的进程，一气之下，便把gitlab给卸载了。这里做下卸载gitlab的记录。
     
     </summary>
     
